@@ -1,6 +1,12 @@
-# api-web-booking-medical-appointments
-# api-web-booking-medical-appointments
-# Clean Architecture
+# API Booking Docter
+
+Dự án API quản lý đặt lịch cho bệnh nhân, hỗ trợ các chức năng như quản lý người dùng, bệnh nhân và lịch hẹn. Dự án được xây dựng theo mô hình Clean Architecture với các layer rõ ràng: Domain, Usecase, Repository, Handler.
+
+## Cấu trúc thư mục
+
+Cấu trúc thư mục của dự án được tổ chức theo Clean Architecture để dễ dàng mở rộng và bảo trì:
+
+```plaintext
 backend/
 ├── cmd/                     # Entry points của ứng dụng (main.go)
 │   └── api/
