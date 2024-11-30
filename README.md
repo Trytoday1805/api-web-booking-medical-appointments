@@ -7,7 +7,7 @@ Dự án API quản lý đặt lịch cho bệnh nhân, hỗ trợ các chức n
 Cấu trúc thư mục của dự án được tổ chức theo Clean Architecture để dễ dàng mở rộng và bảo trì:
 
 ```plaintext
-backend/
+api-booking-docter/
 ├── cmd/                     # Entry points của ứng dụng (main.go)
 │   └── api/
 │       └── main.go          # Điểm bắt đầu chạy ứng dụng
